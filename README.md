@@ -1,2 +1,1 @@
-# lamp-x-light
-Lamp x Light 🔥
+# Lamp x Light 🔥
