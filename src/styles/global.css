@@ -46,7 +46,7 @@ main {
 	width: 720px;
 	max-width: calc(100% - 2em);
 	margin: auto;
-	padding: 3em 1em;
+	padding: 3em 1em 1em 1em;
 }
 h1,
 h2,
@@ -151,4 +151,9 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+
+.header-image {
+	border-radius: 0px;
 }
