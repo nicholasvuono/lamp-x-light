@@ -5,8 +5,8 @@
  */
 
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
+	--accent: #ff3115;
+	--accent-dark: #a6210f;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -69,6 +69,7 @@ h3 {
 }
 h4 {
 	font-size: 1.563em;
+	margin-top: 50px;
 }
 h5 {
 	font-size: 1.25em;
@@ -78,10 +79,12 @@ b {
 	font-weight: 700;
 }
 a {
-	color: var(--accent);
+	color: black;
+	text-decoration: none;
 }
 a:hover {
 	color: var(--accent);
+	text-decoration: none;
 }
 p {
 	margin-bottom: 1em;
@@ -156,4 +159,8 @@ hr {
 
 .header-image {
 	border-radius: 0px;
+}
+
+.month-links {
+	line-height: 3;
 }
